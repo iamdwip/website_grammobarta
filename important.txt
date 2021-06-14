@@ -1,0 +1,5 @@
+https://api.countapi.xyz/create?namespace=grammobarta.com&key=grammobartaPageViews&value=0
+
+https://api.countapi.xyz/get/grammobarta.com/grammobartaPageViews
+
+https://api.countapi.xyz/update/grammobarta.com/grammobartaPageViews/?amount=1
