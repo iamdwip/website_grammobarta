@@ -199,17 +199,6 @@ a {
     transition: all 2s cubic-bezier(0, 1, 0.98, 1);
 }
 
-
-/* .mobile-menu::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-style: solid;
-    border-width: 0 120px 120px 0;
-    border-color: grey white;
-} */
-
 .mobile-menu-logo {
     background-color: rgb(252, 213, 128);
     box-shadow: 0px 2px 6px rgb(252, 213, 128);
@@ -343,6 +332,10 @@ a {
 
 
 /* Latest News */
+
+.left-side-content {
+    background: rgba(20, 25, 25, .3);
+}
 
 .latest-news-section {
     padding: 60px 0;
@@ -991,179 +984,16 @@ a {
 
 /* About Us Page */
 
-.single-item {
-    margin-bottom: 30px;
-    background-color: black;
-    margin: 20px;
+.founders-images img {
+    border-radius: 10px;
 }
 
-.item .thumb {
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
+.founders small {
+    color: gray;
 }
 
-.item .thumb::after {
-    background: #232323 none repeat scroll 0 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    width: 100%;
-}
-
-.team-items .item:hover .thumb::after {
-    opacity: 0.7;
-}
-
-.item .thumb .overlay {
-    top: -100%;
-    left: 0;
-    padding: 20px;
-    position: absolute;
-    text-align: center;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out;
-    width: 100%;
-    z-index: 1;
-}
-
-.item:hover .thumb .overlay {
-    top: 50%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-}
-
-.item .thumb .overlay p {
-    color: #ffffff;
-}
-
-.item .thumb .overlay h4 {
-    color: #ffffff;
-    display: inline-block;
-    position: relative;
-    text-transform: uppercase;
-}
-
-.item .thumb img {
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out;
-}
-
-.item:hover .thumb img {
-    opacity: .6;
-}
-
-.item .thumb .social li {
-    display: inline-block;
-}
-
-.item .thumb .social li a {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    color: #ffffff;
-    display: inline-block;
-    height: 40px;
-    line-height: 40px;
-    margin: 0 2px;
-    text-align: center;
-    width: 40px;
-}
-
-.info {
-    background: #ffffff none repeat scroll 0 0;
-    -moz-box-shadow: 0 0 10px #cccccc;
-    -webkit-box-shadow: 0 0 10px #cccccc;
-    -o-box-shadow: 0 0 10px #cccccc;
-    box-shadow: 0 0 10px #cccccc;
-    padding: 40px 20px 20px;
-    position: relative;
-    text-align: center;
-    z-index: 9;
-}
-
-.info .message {
-    height: 50px;
-    line-height: 40px;
-    margin-left: -25px;
-    margin-top: -25px;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 50px;
-}
-
-.info .message a {
-    background: #fff none repeat scroll 0 0;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -moz-box-shadow: 0 0 10px #cccccc;
-    -webkit-box-shadow: 0 0 10px #cccccc;
-    -o-box-shadow: 0 0 10px #cccccc;
-    box-shadow: 0 0 10px #cccccc;
-    box-sizing: border-box;
-    color: #ff5a6e;
-    display: inline-block;
+.founders a i {
     font-size: 20px;
-    height: 50px;
-    line-height: 50px;
-    width: 50px;
-}
-
-.info .message a i {
-    font-weight: 500;
-}
-
-.info h4 {
-    font-weight: 600;
-    margin-bottom: 5px;
-    text-transform: capitalize;
-}
-
-.info span {
-    color: #ff5a6e;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.social li.twitter a {
-    background-color: #00b6f1;
-}
-
-.social li.pinterest a {
-    background-color: #bd081c;
-}
-
-.social li.facebook a {
-    background-color: #3b5998;
-}
-
-.social li.google-plus a {
-    background-color: #df4a32;
-}
-
-.social li.vimeo a {
-    background-color: #1ab7ea;
-}
-
-.social li.instagram a {
-    background-color: #cd486b;
 }
 
 
