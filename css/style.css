@@ -1254,20 +1254,10 @@ a {
 
 /* Photography page */
 
-
-/* 
-h1 {
-    font-family: Satisfy;
-    font-size: 50px;
-    text-align: center;
-    color: black;
-    padding: 1%;
-}
-
 #gallery {
     -webkit-column-count: 4;
     -moz-column-count: 4;
-    column-count: 4;
+    column-count: 3;
     -webkit-column-gap: 20px;
     -moz-column-gap: 20px;
     column-gap: 20px;
@@ -1303,8 +1293,7 @@ h1 {
     }
 }
 
-#gallery img,
-#gallery video {
+#gallery img {
     width: 100%;
     height: auto;
     margin: 4% auto;
@@ -1314,15 +1303,11 @@ h1 {
     transition: all 0.2s;
 }
 
-.modal-img,
-.model-vid {
+.modal-content {
     width: 100%;
     height: auto;
+    background-size: cover;
 }
-
-.modal-body {
-    padding: 0px;
-} */
 
 
 /* Responsive */
