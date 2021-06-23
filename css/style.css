@@ -1310,6 +1310,143 @@ a {
 }
 
 
+/* Share Options */
+
+.sticky-share {
+    position: fixed;
+    right: 10px;
+    top: 40vh;
+    z-index: 999;
+}
+
+.sticky-share .btn-share {
+    height: 44px;
+    width: 44px;
+    background: #DC143C;
+    line-height: 41px;
+    font-size: 23px;
+    color: #e9fcf8;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #DC143C;
+    padding-left: 11px;
+}
+
+.sticky-share i {
+    height: 35px;
+    width: 35px;
+    background: #16a085;
+    line-height: 30px;
+    font-size: 15px;
+    color: #e9fcf8;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #159d82;
+    padding-left: 8px;
+}
+
+.sticky-share:hover i {
+    background: #159d82;
+    border-color: #12876f;
+}
+
+.sticky-share a i {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 30px;
+    width: 30px;
+    line-height: 15px;
+    font-size: 15px;
+    border: 1px solid transparent;
+    background: #16a085;
+    z-index: -1;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.6s;
+}
+
+#click:checked~.sticky-share a i {
+    height: 35px;
+    width: 35px;
+    line-height: 34px;
+    font-size: 20px;
+    z-index: 999;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#click:checked~.sticky-share a:nth-child(2) i {
+    bottom: -110px;
+    right: 50px;
+    background: #3f3e3f;
+    border-color: #3f3e3f;
+}
+
+.sticky-share a:nth-child(2) i {
+    transition-delay: 0.2s;
+}
+
+#click:checked~.sticky-share a:nth-child(3) i {
+    bottom: -65px;
+    right: 50px;
+    background: #3b5998;
+    border-color: #3b5998;
+}
+
+.sticky-share a:nth-child(3) i {
+    transition-delay: 0.2s;
+}
+
+#click:checked~.sticky-share a:nth-child(4) i {
+    bottom: -20px;
+    right: 50px;
+    background: #00acee;
+    border-color: #00acee;
+}
+
+.sticky-share a:nth-child(4) i {
+    transition-delay: 0.2s;
+}
+
+#click:checked~.sticky-share a:nth-child(5) i {
+    bottom: 25px;
+    right: 50px;
+    background: #25d366;
+    border-color: #25d366;
+}
+
+.sticky-share a:nth-child(5) i {
+    transition-delay: 0.2s;
+}
+
+#click:checked~.sticky-share a:nth-child(6) i {
+    bottom: 70px;
+    right: 50px;
+    background: #0e76a8;
+    border-color: #0e76a8;
+}
+
+.sticky-share a:nth-child(6) i {
+    transition-delay: 0.2s;
+}
+
+#click:checked~.sticky-share a:nth-child(7) i {
+    bottom: 115px;
+    right: 50px;
+    background: #db4a39;
+    border-color: #db4a39;
+}
+
+.sticky-share a:nth-child(7) i {
+    transition-delay: 0.2s;
+}
+
+#click {
+    display: none;
+}
+
+
 /* Responsive */
 
 @media(min-width: 991px) {

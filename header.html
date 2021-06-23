@@ -121,6 +121,20 @@
     </section>
 </header>
 
+<!--Share option start-->
+<div class="share">
+    <input type="checkbox" id="click">
+    <label for="click" class="sticky-share">
+        <i class="fas fa-share btn-share"></i>
+        <a class="insta-share" onclick="copy();"><i class="fas fa-copy"></i></a>
+        <a href="javascript:void(window.open('https://www.facebook.com/sharer.php?u=' + encodeURIComponent(document.location.href),'_blank'))" class="fb-share"><i class="fab fa-facebook-f"></i></a>
+        <a href="javascript:void(window.open('https://twitter.com/share?url=' + encodeURIComponent(document.location.href) + '&amp;text=' + encodeURIComponent(document.title),'_blank'))" class="twitter-share"><i class="fab fa-twitter"></i></a>
+        <a href="javascript:void(window.open('https://api.whatsapp.com/send?text=' + encodeURIComponent(document.title) + ' ' + encodeURIComponent(document.location.href),'_blank'))" class="whatsapp-share"><i class="fab fa-whatsapp"></i></a>
+        <a href="javascript:void(window.open('https://www.linkedin.com/shareArticle?url=' + encodeURIComponent(document.location.href) + '&amp;title=' + encodeURIComponent(document.title),'_blank'))" class="linkedin-share"><i class="fab fa-linkedin-in"></i></a>
+        <a href="javascript:void(window.open('https://reddit.com/submit?url=' + encodeURIComponent(document.location.href) + '&amp;title=' + encodeURIComponent(document.title),'_blank'))" class="reddit-share"><i class="fab fa-reddit"></i></a>
+    </label>
+</div>
+
 <script>
     var hamberger = document.querySelector(".hamberger-icon");
     var mobileMenu = document.querySelector(".mobile-menu");

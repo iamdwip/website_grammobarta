@@ -304,3 +304,24 @@ function showSlides() {
     setTimeout(showSlides, 2500);
 }
 showSlides();
+
+
+// Copied link
+function copy(text) {
+    var inputc = document.body.appendChild(document.createElement("input"));
+    inputc.value = window.location.href;
+    inputc.focus();
+    inputc.select();
+    document.execCommand('copy');
+    inputc.parentNode.removeChild(inputc);
+}
+
+// var $temp = $("<input>");
+// var $url = $(location).attr('href');
+
+// $('.insta-share').on('click', function() {
+//     $("body").append($temp);
+//     $temp.val($url).select();
+//     document.execCommand("copy");
+//     $temp.remove();
+// })
