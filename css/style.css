@@ -335,6 +335,7 @@ a {
 
 .left-side-content {
     background: rgba(30, 25, 25, .4);
+    width: 100%;
 }
 
 .latest-news-section {
