@@ -1,3 +1,9 @@
+/* Web Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Kanit&family=Meddon&display=swap');
+
+/* Page CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -1445,6 +1451,46 @@ a {
 
 #click {
     display: none;
+}
+
+
+/* Disclaimer page */
+
+.disclaimer-heading h1,
+.privacy-heading h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-size: 42px;
+}
+
+.headings {
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.sub-headings {
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+}
+
+.disclaimer-date,
+.privacy-date {
+    font-family: 'Kanit', sans-serif;
+    color: grey;
+}
+
+.disclaimer-body p,
+.privacy-body p,
+.list-texts {
+    font-family: 'Benne', serif;
+    font-size: 23px;
+    text-align: justify;
+}
+
+.thanks {
+    font-family: 'Meddon', cursive;
 }
 
 
